@@ -70,7 +70,7 @@ userSchema.methods = {
         )
     }
 }
-
+// schema added
 
 
 export default mongoose.model("User", userSchema)
