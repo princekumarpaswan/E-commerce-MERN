@@ -17,7 +17,7 @@ const userSchema = mongoose.Schema(
             required: [true, "Email is required"],
             unique: true
         },
-
+//the pasword genetrating schema 
         password: {
             type: String,
             required: [true, "password is required"],
